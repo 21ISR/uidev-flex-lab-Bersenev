@@ -35,7 +35,7 @@ body {
 .sidebar {
     background: #f4f4f4;
     padding: 20px;
-    width: 25%;
+    width: 25%;  
 }
 .content {
     background: #ddd;
@@ -50,6 +50,8 @@ body {
 .card-container {
     gap: 15px;
     width: 100%;
+    display: flex;
+    flex-direction: right;
 }
 .card {
     background: white;
